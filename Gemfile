@@ -25,3 +25,12 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
 end
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#This solves something for windows
+gem 'webrick'
+
+#Add emoji to website
+gem 'jemoji'
