@@ -9,11 +9,11 @@ redirect_from:
 ---
 
 :wave: Hi, I am Ignacio. Welcome to my website. 
-I am a first year PhD student at the <b><span style="color:#9D2235">University of Southern California, Department of Economics</span></b>.
+I am a second year PhD student at the <b><span style="color:#9D2235">University of Southern California, Department of Economics</span></b>.
 
 
 I am currently beta testing this site. In the long-run (if not dead), you will find:
-1. My research
+1. My research: Publications and Working papers
 2. My ongoing projects
 3. Research tools and useful resources
 4. My CV
