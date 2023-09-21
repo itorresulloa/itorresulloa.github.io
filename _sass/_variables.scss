@@ -45,26 +45,26 @@ $type-size-8                : 0.625em;  // ~10px
 
 /*
    Colors
+   Original grey #7a8288
    ========================================================================== */
-
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
+$gray                       : #990029;
+$dark-gray                  : mix(#000, $gray, 60%);
+$darker-gray                : mix(#000, $gray, 80%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
+$body-color                 : #fffbfc;
+$background-color           : #fffbfc;
+$code-background-color      : #fffbfc;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
-$primary-color              : #7a8288;
+$primary-color              : #cc0036;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : #52adc8;
+$info-color                 : #5a5cad;
 
 /* brands */
 $behance-color              : #1769FF;
