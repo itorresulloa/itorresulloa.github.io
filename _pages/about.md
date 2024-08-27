@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 :wave: Hi, I am Ignacio. Welcome to my website. 
-I am a second year PhD student at the <b><span style="color:#9D2235">University of Southern California, Department of Economics</span></b>.
+I am a third year PhD student at the <b><span style="color:#9D2235">University of Southern California, Department of Economics</span></b>.
 
 
 I am currently beta testing this site. In the long-run (if not dead), you will find:
