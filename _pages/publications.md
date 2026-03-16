@@ -5,8 +5,12 @@ permalink: /research/
 author_profile: true
 ---
 
+<div class="research-note">
+This page collects my published research.
+</div>
+
 {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+  <p>You can also find my articles on <a href="{{author.googlescholar}}"><u>my Google Scholar profile</u></a>.</p>
 {% endif %}
 
 {% include base_path %}

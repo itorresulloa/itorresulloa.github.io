@@ -5,11 +5,28 @@ permalink: /projects/
 author_profile: true
 ---
 
- 
-<b><span style="color:#a64d79">Here is a list of my ongoing projects:</span></b>
-1. A study about the effects of providing information about evaluation results to participants (better title soon...) <i>with Pablo Celhay and Sebastian Martinez</i>.
-2. A study about civil servant preferences in social service provision.  <i>with Catalina Hurtado and Raimundo Undurraga</i>.
-3. A study about social networks in the elder population (better title soon...) <i>with Pablo Celhay</i>.
+<div class="placeholder-note">
+This page lists projects that are currently in development and are not yet at the stage of a working paper or completed results.
+</div>
 
-<b><span style="color:#a64d79">Here is a list of my non-academic projects:</span></b>
-1. Sorry, nothing to see here yet
+<div class="project-entry">
+  <h2>Information provision and participant responses to evaluation results</h2>
+  <p class="project-entry__meta"><em>With Pablo Celhay and Sebastian Martinez</em></p>
+  <p>An early-stage project studying how participants respond when they receive information about evaluation results.</p>
+</div>
+
+<div class="project-entry">
+  <h2>Civil servant preferences in social service provision</h2>
+  <p class="project-entry__meta"><em>With Catalina Hurtado and Raimundo Undurraga</em></p>
+  <p>An ongoing project on how civil servants make decisions within social service delivery and how those preferences shape interactions with the state.</p>
+</div>
+
+<div class="project-entry">
+  <h2>Social networks among older adults</h2>
+  <p class="project-entry__meta"><em>With Pablo Celhay</em></p>
+  <p>An early-stage project on social networks in older populations and the role they may play in economic and social outcomes.</p>
+</div>
+
+## Non-academic projects
+
+There is nothing to share here yet, but I may add selected non-academic work in the future.

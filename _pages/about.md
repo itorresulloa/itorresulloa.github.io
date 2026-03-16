@@ -8,18 +8,26 @@ redirect_from:
   - /about.html
 ---
 
-:wave: Hi, I am Ignacio. Welcome to my website. 
-I am a fourth year PhD student at the <b><span style="color:#9D2235">University of Southern California, Department of Economics</span></b>.
+<div class="home-intro">
+  <p>Hello, I am Ignacio Torres-Ulloa. I am a fourth-year PhD student in the <strong><span style="color:#9D2235">Department of Economics at the University of Southern California</span></strong>.</p>
 
+  <p>My research studies the labor market implications of migration and finance, with a particular focus on business behavior, productivity, and mechanisms within the firm. I am also interested in immigration, the relationship between the state and civil servants, and broader questions in development economics, behavioral economics, causal inference, and philosophy of science.</p>
 
-I am currently beta testing this site. In the long-run (if not dead), you will find:
-1. My research: Publications and Working papers
-2. My ongoing projects
-3. Research tools and useful resources
-4. My CV
-5. More information about me :space_invader:
+  <p>This website brings together my research, ongoing projects, CV, and a few resources related to my work.</p>
+</div>
 
+<div class="quick-links">
+  <a class="btn btn--primary" href="/research/">Research</a>
+  <a class="btn btn--primary" href="/projects/">Projects</a>
+  <a class="btn btn--primary" href="/cv/">CV</a>
+  <a class="btn btn--primary" href="/about_me/">About me</a>
+</div>
 
-In summary, my academic interests are in <b><span style="color:#D35400">development economics</span></b>, <b><span style="color:#2874A6">behavioral economics</span></b>, <b><span style="color:#28B463">causal inference</span></b>, and <b><span style="color:#76448A">philosophy of science</span></b> (especially on causality, evidence extrapolation and generalizability).
+<!--
+Future section idea: featured papers or featured research.
+<div class="feature__wrapper">
+  Add one or two highlighted papers here when ready.
+</div>
+-->
 
-<b>Contact me at</b>: ignaciot {at} usc {dot} edu or itorresulloa {at} gmail {dot} com
+<p><strong>Contact</strong>: ignaciot {at} usc {dot} edu or itorresulloa {at} gmail {dot} com</p>
