@@ -45,26 +45,32 @@ $type-size-8                : 0.625em;  // ~10px
 
 /*
    Colors
-   Original grey #7a8288
+   Palette from the USCReadingGroup Beamer theme
    ========================================================================== */
-$gray                       : #990029;
+$rg-navy                    : #0b2e54;
+$rg-orange                  : #ed5331;
+$rg-rule-blue               : #bad1df;
+$rg-gray                    : #5a6571;
+$rg-light-blue              : #eaf3f8;
+
+$gray                       : $rg-gray;
 $dark-gray                  : mix(#000, $gray, 60%);
 $darker-gray                : mix(#000, $gray, 80%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #fffbfc;
-$background-color           : #fffbfc;
-$code-background-color      : #fffbfc;
+$body-color                 : #fff;
+$background-color           : #fff;
+$code-background-color      : $rg-light-blue;
 $code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$text-color                 : $rg-navy;
+$border-color               : $rg-rule-blue;
 
-$primary-color              : #cc0036;
+$primary-color              : $rg-navy;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : #5a5cad;
+$info-color                 : $rg-navy;
 
 /* brands */
 $behance-color              : #1769FF;
@@ -92,7 +98,7 @@ $xing-color                 : #006567;
 /* links */
 $link-color                 : $info-color;
 $link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
+$link-color-visited         : $link-color;
 $masthead-link-color        : $primary-color;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 

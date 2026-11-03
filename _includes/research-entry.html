@@ -1,0 +1,28 @@
+<article class="research-entry">
+  <h3 class="research-entry__title">
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}">{{ post.title }}</a>
+    {% else %}
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% endif %}
+  </h3>
+  {% if post.coauthors and post.coauthors != '' %}
+    <p class="research-entry__authors">With {{ post.coauthors }}</p>
+  {% endif %}
+  {% if post.venue or post.date %}
+    <p class="research-entry__meta">{% if post.venue %}<em>{{ post.venue }}</em>{% endif %}{% if post.venue and post.date %} &middot; {% endif %}{% if post.date %}{{ post.date | date: '%Y' }}{% endif %}</p>
+  {% endif %}
+  <div class="research-entry__links">
+    {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+    {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
+    {% if post.dataurl %}<a href="{{ post.dataurl }}">Data</a>{% endif %}
+    {% if post.slidesurl %}<a href="{{ post.slidesurl }}">Slides</a>{% endif %}
+    {% if post.appendixurl %}<a href="{{ post.appendixurl }}">Appendix</a>{% endif %}
+  </div>
+  {% if post.abstract and post.abstract != '' %}
+    <details class="research-entry__abstract">
+      <summary>Abstract<span class="sr-only">: {{ post.title }}</span></summary>
+      <div class="research-entry__abstract-body">{{ post.abstract | markdownify }}</div>
+    </details>
+  {% endif %}
+</article>

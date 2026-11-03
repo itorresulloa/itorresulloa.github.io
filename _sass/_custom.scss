@@ -31,15 +31,15 @@
 .placeholder-note {
   padding: 1rem 1.25rem;
   margin: 1.5rem 0;
-  border-left: 4px solid #9d2235;
-  background: #f7f9fd;
-  box-shadow: inset 0 0 0 1px rgba(90, 92, 173, 0.12);
+  border-left: 4px solid $rg-orange;
+  background: $rg-light-blue;
+  box-shadow: inset 0 0 0 1px rgba($rg-rule-blue, 0.5);
 }
 
 .project-entry {
   margin-bottom: 2rem;
   padding-bottom: 1.5rem;
-  border-bottom: 1px solid #dbe4f2;
+  border-bottom: 1px solid $border-color;
 }
 
 .project-entry:last-of-type {
@@ -55,17 +55,17 @@
 
 .project-entry__meta {
   margin-bottom: 0.75rem;
-  color: #5b6371;
+  color: $rg-gray;
   font-size: 0.95rem;
 }
 
 .publication-entry {
   margin-bottom: 2rem;
   padding: 1.5rem;
-  border: 1px solid #dbe4f2;
+  border: 1px solid $border-color;
   border-radius: 8px;
-  background: #fcfdff;
-  box-shadow: 0 8px 20px rgba(90, 92, 173, 0.04);
+  background: $background-color;
+  box-shadow: 0 8px 20px rgba($rg-navy, 0.04);
 }
 
 .publication-entry .archive__item-title {
@@ -79,7 +79,7 @@
   flex-wrap: wrap;
   gap: 0.5rem 1rem;
   margin-bottom: 1rem;
-  color: #5b6371;
+  color: $rg-gray;
   font-size: 0.92rem;
 }
 
@@ -96,24 +96,28 @@
 }
 
 .publication-entry__citation {
-  color: #5b6371;
+  color: $rg-gray;
   font-size: 0.92rem;
 }
 
 .publication-entry__abstract {
   margin-top: 1rem;
-  border-top: 1px solid #dbe4f2;
+  border-top: 1px solid $border-color;
   padding-top: 0.9rem;
 }
 
 .publication-entry__abstract summary {
   cursor: pointer;
   font-weight: 600;
-  color: #9d2235;
+  color: $rg-navy;
 }
 
 .publication-entry__abstract summary:hover {
-  color: #7c1b2a;
+  color: $link-color-hover;
+}
+
+.publication-entry__abstract summary::marker {
+  color: $rg-orange;
 }
 
 .publication-entry__abstract-body {
@@ -124,6 +128,14 @@
   font-size: 1.7em;
   line-height: 1.15;
   margin-bottom: 0.6em;
+}
+
+.page__title:not(:empty)::after {
+  content: "";
+  display: block;
+  height: 2px;
+  margin-top: 0.5em;
+  background: linear-gradient(to right, $rg-orange 0, $rg-orange 3rem, $rg-rule-blue 3rem, $rg-rule-blue 100%);
 }
 
 .page__content h2 {
@@ -142,9 +154,51 @@
 }
 
 .page__content strong {
-  color: #6f1830;
+  color: $rg-navy;
 }
 
 .page__content a:not(.btn) {
   text-underline-offset: 0.12em;
+}
+
+.page__content a:not(.btn):hover,
+.archive a:not(.btn):hover {
+  color: $link-color-hover;
+  text-decoration-color: $rg-orange;
+}
+
+.greedy-nav .visible-links a::before {
+  background: $rg-orange;
+}
+
+.quick-links .btn:hover,
+.publication-entry__links .btn:hover {
+  background: $link-color-hover;
+  box-shadow: inset 0 -3px 0 $rg-orange;
+  text-decoration: none;
+}
+
+.page__content li::marker,
+.archive li::marker {
+  color: $rg-orange;
+}
+
+.page__footer {
+  color: $rg-gray;
+  background: $rg-light-blue;
+  border-top-color: $rg-rule-blue;
+}
+
+.page__footer .fas,
+.page__footer .fab,
+.page__footer .far,
+.page__footer .fal {
+  color: $rg-gray;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 2px solid $rg-orange;
+  outline-offset: 3px;
 }

@@ -1,10 +1,10 @@
 ---
-layout: archive
+layout: academic
 title: "CV"
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
 
-[Download my CV here](http://itorresulloa.github.io/files/CV_Ignacio_Torres_Ulloa.pdf)
+<p><a class="btn" href="{{ '/files/CV_Ignacio_Torres_Ulloa.pdf' | relative_url }}">Download CV (PDF)</a></p>
