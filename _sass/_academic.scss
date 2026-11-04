@@ -103,12 +103,12 @@
 }
 
 .home-profile__identity {
-  max-width: 264.5px;
+  max-width: 317.4px;
 }
 
 .home-profile__photo {
   display: block;
-  width: 126.96px;
+  width: 152.352px;
   max-width: 100%;
   height: auto;
   border-radius: 0;
@@ -446,7 +446,7 @@
   }
 
   .home-profile {
-    grid-template-columns: 184px minmax(0, 1fr);
+    grid-template-columns: 220.8px minmax(0, 1fr);
     gap: 2rem;
   }
 
@@ -461,7 +461,7 @@
   }
 
   .home-profile {
-    grid-template-columns: 264.5px minmax(0, 1fr);
+    grid-template-columns: 317.4px minmax(0, 1fr);
     gap: 3rem;
   }
 
