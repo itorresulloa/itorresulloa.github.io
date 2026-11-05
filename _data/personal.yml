@@ -13,6 +13,18 @@ swimming:
     url: "https://maps.app.goo.gl/UMqqHays2yapAde68"
 
 concerts:
+  - artist: "Foals"
+    venue: "Teatro Monumental"
+    date: "2011-09-16"
+    url: "https://music.youtube.com/playlist?list=PLcJ8Mnpzu9PU"
+  - artist: "Chancho en Piedra"
+    venue: "Teatro Monumental"
+    date: "2011-09-16"
+    url: "https://music.youtube.com/playlist?list=PLahMwO0chKAo"
+  - artist: "Red Hot Chili Peppers"
+    venue: "Estadio Monumental"
+    date: "2011-09-16"
+    url: "https://music.youtube.com/playlist?list=PLEqJePEmsOBs"
   - artist: "Blink-182"
     venue: "Lollapalooza Chile"
     date: "2024-03-16"
